@@ -1,8 +1,5 @@
-# [START runtime]
+service: default
 runtime: nodejs10
-# [END runtime]
-
-# [START handlers]
 handlers:
  - url: /
    static_files: build/index.html
