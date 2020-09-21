@@ -8,4 +8,3 @@ handlers:
  - url: /(.*)
    static_files: build/\1
    upload: build/(.*)
-# [END handlers]

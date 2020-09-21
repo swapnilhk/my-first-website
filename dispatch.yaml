@@ -1,3 +1,5 @@
 dispatch:
   - url: "my-first-website-07092020.el.r.appspot.com/"
     service: default
+  - url: "api/*"
+    service: api
