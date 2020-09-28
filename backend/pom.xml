@@ -7,13 +7,15 @@
 		<version>2.3.3.RELEASE</version>
 	</parent>
 	<groupId>api.swapnilhk.com</groupId>
-	<artifactId>my-first-website</artifactId>
+	<artifactId>website-attempt-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+		
 	<properties>
 		<java.version>1.8</java.version>
-		<app.deploy.projectId>my-first-website-07092020</app.deploy.projectId>
+		<app.deploy.projectId>website-attempt-2</app.deploy.projectId>
 		<app.deploy.version>1</app.deploy.version>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
 	</properties>
 	<dependencies>
 		<dependency>
