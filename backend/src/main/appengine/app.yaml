@@ -1,6 +1,7 @@
 service: api
-runtime: java
-env: flex
+runtime: java11
+#env: flex
+entrypoint: java -jar ./target/website-attempt-2-0.0.1-SNAPSHOT.jar
 
 handlers:
 - url: /.*
