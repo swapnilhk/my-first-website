@@ -1,8 +1,0 @@
-service: api
-runtime: java11
-#env: flex
-entrypoint: java -jar ./target/website-attempt-2-0.0.1-SNAPSHOT.jar
-
-handlers:
-- url: /.*
-  script: this field is required, but ignored

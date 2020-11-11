@@ -12,7 +12,7 @@
   },
   "scripts": {
     "prestart": "npm install -g serve",
-	"start": "serve build",
+    "start": "serve build",
     "local": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
